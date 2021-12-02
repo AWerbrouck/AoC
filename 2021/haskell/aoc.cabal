@@ -7,6 +7,7 @@ library
   default-language: Haskell2010
   build-depends: base >= 4.14.3.0 && < 4.15
   exposed-modules: Day1
+                 , Day2
 
 executable aoc
   main-is: Main.hs

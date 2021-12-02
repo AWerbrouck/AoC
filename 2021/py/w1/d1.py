@@ -15,10 +15,10 @@ def count_increments(depths, slice_length):
 
 
 def part1():
-    depths = util.readAsIntArray("id1.txt")
+    depths = util.readAsIntArray("2021/inputs/1")
     return count_increments(depths, 1)
 
 def part2():
-    depths = util.readAsIntArray("id1.txt")
+    depths = util.readAsIntArray("2021/inputs/1")
     return count_increments(depths,3)
     
